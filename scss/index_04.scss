@@ -1,48 +1,26 @@
 .container{
-    .QR_group{
-        margin: 3.5rem;
-        display: flex;
-        flex-direction: column;
-        .QR_group__col{
-            display: flex;
-            justify-content: space-between;
-            flex-direction: row;
-            width: 45rem;
-            .QR{
-                display: flex;
-                justify-content: space-between;
-                flex-direction: row;
-                width: 17.5rem;
-                .Member{
-                    .intr-img {
-                        width: 8rem;
-                        height: 8rem;
-                      }
-                }
-                .QR_icon{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    width: 7.65rem;
-                    height: 7.65rem;
-                    border: 1px solid white;
-                }
-            }
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    .png{
+        .png-img{
+            height: 27rem;
+            width: 20rem;
+            display: inline-block;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
         }
-        
     }
-    .QR_intro{
-        margin: 3.5rem;
-        width: 45rem;
-        display: flex;
-        justify-content: space-between;
-        .intro_str{
-            width: 17rem;
-            height: 17rem;
-            border: 1px solid white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+    .svg{
+        .svg-img{
+            height: 13rem;
+            width: 18rem;
+            display: inline-block;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
         }
     }
 }
