@@ -1,0 +1,47 @@
+/* 複寫 會以這個優先 */
+.footer {
+  padding: 0 0 0rem 2.5rem;
+}
+.content_line {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  line-height: 0.6rem;
+  padding: 0 0 1.5rem 0;
+}
+.Introduction-all {
+  padding: 2rem 0 0 0;
+}
+.intr-img {
+  padding: 1.5rem;
+  padding-left: 2.5rem;
+  width: 8rem;
+  height: 8rem;
+}
+.Introduction {
+  display: flex;
+  align-items: center;
+}
+.Introduction-content {
+  /* height: 6.75rem; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+  line-height: 1.35rem;
+  letter-spacing: 0.2rem;
+}
+.Introduction-one-row {
+  width: 45rem;
+  display: flex;
+  justify-content: space-between;
+}
+.Introduction-two-row {
+  width: 45rem;
+  display: flex;
+  justify-content: space-between;
+}
+.Introduction-three-row {
+  width: 45rem;
+  display: flex;
+  justify-content: space-between;
+}

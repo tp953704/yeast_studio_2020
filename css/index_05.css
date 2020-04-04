@@ -1,0 +1,40 @@
+.area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 28.8rem;
+  padding: 67px 0 78px 0;
+}
+.color-area {
+  display: flex;
+  flex-direction: row;
+  width: 35.5rem;
+  justify-content: space-between;
+  padding: 0 0 0 6.5rem;
+}
+.color-block {
+  display: flex;
+  flex-direction: column;
+  width: 11.35rem;
+  /* align-items: center; */
+}
+.color-img {
+  /* padding: 0 0 97px 118px; */
+  width: 100%;
+  height: 4.75rem;
+}
+.color-title {
+  padding: 0.35rem 0 1.45rem 0px;
+  text-align: center;
+  width: 100%;
+  height: 1.1rem;
+}
+/* .color-text {
+  width: 100%;
+  font-size: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 17px 0 0 0;
+  text-align: center;
+} */

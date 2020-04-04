@@ -1,0 +1,256 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  /* 微軟正黑體 */
+  font-family: "微軟雅黑體", "Helvetica", "Arial", "LiHei Pro", "黑體-繁",
+    "微軟正黑體", sans-serif;
+  color: white;
+}
+
+.BG {
+  width: 100%;
+  height: 100%;
+  background-image: url(../pic/首頁.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.Big_menu {
+  font-size: 2rem;
+  margin-right: 6.1rem;
+  /* width: 100px; */
+  /* display: flex; */
+  /* margin-right:0 100px 0 0 ; */
+  /* margin: 0 120px 0 0; */
+}
+
+.menu {
+  width: 23.4rem;
+  /* height: 70%;  */
+  justify-content: space-between;
+  display: flex;
+  font-size: 1rem;
+  /* padding: 0px 0 0 0px; */
+}
+.ALL_menu {
+  display: flex;
+  width: 42.3rem;
+  justify-content: space-between;
+  /* padding: 2rem 6rem 7rem 2.5rem; */
+  padding: 2rem 0rem 2rem 2.5rem;
+  align-items: flex-end;
+}
+.menu-float {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  right: 0;
+  top: 7.5rem;
+  width: 2.5rem;
+  height: 8.5rem;
+  background-color: white;
+  opacity: 95%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  /* margin-top: -2.5em; */
+  /* display:flex;
+    flex-direction: column; */
+}
+.line-bottom {
+  position: relative;
+  left: 0px;
+  height: 0.5rem;
+  width: 1rem;
+  border-bottom: 1px solid white;
+  /* 動畫 */
+  transition: transform 0.9s;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+}
+/* 改 */
+.move {
+  transform: translate3d(200px, 0, 0);
+}
+.line-bottom-01 {
+  height: 0.5rem;
+  width: 2rem;
+  border-bottom: 0.1rem solid white;
+}
+
+.footer {
+  font-size: 0.8rem;
+  display: flex;
+  width: 37.5rem;
+  /* justify-content: space-between; */
+  /* padding: 0px 30px 0 30px; */
+  align-items: flex-end;
+  position: fixed;
+  bottom: 1rem;
+  justify-content: space-between;
+  /* padding: 0 0 1.4rem 2.5rem; */
+  padding: 0 0 0rem 2.5rem;
+}
+.icon {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.menu_line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 腦公修改 */
+:root {
+  /* //rem範圍是12-20px 螢幕由1920 到1024*/
+  font-size: calc(12px + (8 / (1920 - 1024) * (100vw - 1024px)));
+}
+/* 動畫 */
+@keyframes move {
+  from {
+    left: 0;
+  }
+  to {
+    left: 500px;
+  }
+}
