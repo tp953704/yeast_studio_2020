@@ -12,6 +12,11 @@
           justify-content: start;
 }
 
+.container .png {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .container .png .png-img {
   height: 27rem;
   width: 17rem;
