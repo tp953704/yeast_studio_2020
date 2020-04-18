@@ -14,6 +14,16 @@ $(function(){
         },800);
         console.log(1)
     })
+    $('.burger').on('click',function(){
+        let $parent = $('.mobile_menu').parent();
+        $parent.toggleClass('d-none');
+        $('.BG').toggleClass('d-none');
+    })
+    $('.mobile_menu_1').find('span').on('click',function(){
+        let $parent = $('.mobile_menu').parent();
+        $parent.toggleClass('d-none');
+        $('.BG').toggleClass('d-none');
+    })
     
 })
 const phoneonoff=($dom,opentxt,closetxt)=>{
