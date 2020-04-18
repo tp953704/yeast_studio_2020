@@ -84,6 +84,7 @@
     padding: 1rem 0 1rem 0rem;
     margin:1rem 0 2rem 2rem;
     cursor: pointer;
+    color: #F48DA1;
   }
   .content_2{
     display: flex;
@@ -99,6 +100,10 @@
     display: block;
     margin: 0rem 0rem 0rem 3rem;
     line-height: 3rem;
+    
+  }
+  .phoneContent_2_1 div{
+    font-size: 2rem;
   }
   
 }
