@@ -127,8 +127,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-html,
+@media screen and (min-width:576px) {
+  html,
 body {
   width: 100%;
   height: 100%;
@@ -137,6 +137,8 @@ body {
     "微軟正黑體", sans-serif;
   color: white;
 }
+}
+
 
 .BG {
   width: 100%;
@@ -178,6 +180,8 @@ a {
   padding: 2rem 0rem 2rem 2.5rem;
   align-items: flex-end;
 }
+
+
 .menu-float {
   position: fixed;
   display: flex;
@@ -252,5 +256,67 @@ a {
   }
   to {
     left: 500px;
+  }
+}
+.sm-txt{
+  font-size: 1rem;
+}
+.md-txt{
+  font-size: 1.5rem;
+}
+.bg-txt{
+  font-size: 5rem;
+}
+@media screen and (max-width:576px) { 
+  html{
+    width: 100%;
+    color: white;
+  }
+  body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    min-height: 100vh;
+  }
+  .footer{
+    display: none;
+  }
+  .BG {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,#3B5B89,#010419);
+    min-height: 100vh;
+  }
+  .menu-float{
+    display: none;
+  }
+  .sm-txt{
+    font-size: 1.6rem;
+  }
+  .md-txt{
+    font-size: 2.5rem;
+  }
+  .bg-txt{
+    font-size: 8rem;
+  }
+  .ALL_menu {
+    background-color: #FFFFFFCC;
+    height: 5.7rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 2rem 6rem 7rem 2.5rem; */
+    padding: 2rem 0rem 2rem 2.5rem;
+    align-items: flex-end;
+  }
+  .ALL_menu .menu{
+    display: none;
+  }
+  .ALL_menu .Big_menu{
+    font-size: 3rem;
+    color: #2D466E;
+  }
+  .d-none{
+    display: none;
   }
 }

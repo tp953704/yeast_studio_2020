@@ -12,5 +12,21 @@ $(function(){
         setTimeout(()=>{
             $that.siblings('a').find('span').trigger('click');
         },800);
+        console.log(1)
     })
+    
 })
+const phoneonoff=($dom,opentxt,closetxt)=>{
+    console.log($(window).width())
+    if($(window).width()<576){
+        console.log($dom)
+        if($dom.hasClass('d-none')){
+            $dom.removeClass('d-none');
+            $('.content_btn').find('.md-txt').html(closetxt);
+        }else{
+            $dom.addClass('d-none');
+            $('.content_btn').find('.md-txt').html(opentxt);
+            
+        }
+    }
+}

@@ -45,3 +45,67 @@
   display: flex;
   justify-content: space-between;
 }
+.sm-txt{
+  font-size: .8rem;
+}
+.content_btn{
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .Introduction-all{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.intr-img{
+  width: 25rem;
+  height: 25rem;
+}
+  .Introduction{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Introduction-one-row{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Introduction-two-row{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Introduction-three-row{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Introduction-content{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 18rem;
+  }
+  .Introduction-content .sm-txt{
+    line-height: 3rem;
+    font-size: 2rem;
+  }
+  .content_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    width: 20rem;
+    height: 4rem;
+    border: #F48DA1 1px solid;
+    border-radius: .5rem;
+    padding: 1rem 0 1rem 0rem;
+    margin:1rem 0 2rem 2rem;
+    color: #F48DA1;
+  }
+ 
+}
