@@ -24,6 +24,7 @@
   flex-direction: column;
   justify-content: space-around;
   /* line-height: 1.2rem; */
+  
 }
 .bg-img {
   width: 12rem;
@@ -35,8 +36,11 @@
   display: flex;
   flex-direction: column;
   align-items: left;
-  line-height: 0.6rem;
+  line-height: 4rem;
   padding: 0 0 0rem 0;
+  font-size:1.25rem;
+  color:#F48DA1;
+  letter-spacing: 0.25rem;
 }
 .phoneContent{
     display: none;
