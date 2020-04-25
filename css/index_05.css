@@ -47,6 +47,10 @@
     flex-direction: column;
     width: 11.35rem;
   }
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
   .area {
     display: flex;
     flex-direction: column;
